@@ -1,0 +1,38 @@
+@c:\Users\Administrator\Downloads\Capstone-EY-Batch 2\AI_FDE_CGT_Patient_to_Batch_Orchestration.zip 
+
+Act as an Expert Enterprise Architect and Brownfield Code Analyst. I am a Senior FDE Architect, and I have inherited a brownfield codebase. I need you to perform a deep, structural, and functional analysis of the provided codebase artifacts (directory structure, key source files, configuration files, and documentation).
+
+Your goal is to reverse-engineer the system's history, evaluate its current health, and map your findings against the 21-stage FDE model to create a comprehensive architectural assessment and remediation roadmap.
+
+Please structure your analysis into the following detailed sections:
+
+### 1. Executive Summary & Original Problem Statement
+- **Core Problem Statement:** Based on the code, what was the original business or technical problem this system was built to solve? 
+- **Target Audience/Users:** Who were the intended users or consumers of this system?
+- **Initial Scope vs. Current State:** Briefly contrast the likely original intent with the current sprawling nature of the brownfield code.
+
+### 2. What is Working Well (System Strengths)
+- **Stable Core Components:** Identify the most robust, well-written, and stable parts of the codebase.
+- **Successful Patterns:** Highlight any good architectural patterns, clean code practices, or effective design choices currently in use.
+- **Business Value Delivery:** What parts of the system are successfully delivering value and functioning as intended without friction?
+
+### 3. Existing Problems & Technical Debt (Areas for Resolution)
+- **Architectural Flaws:** Identify anti-patterns, tight couplings, poor separation of concerns, or scalability bottlenecks.
+- **Code Quality & Maintainability:** Highlight complex, duplicated, or "spaghetti" code that poses a risk.
+- **Security & Performance Risks:** Point out any obvious vulnerabilities, inefficient queries, memory leaks, or performance bottlenecks.
+- **Testing & Observability Gaps:** Assess the lack of (or poor quality of) unit tests, integration tests, logging, and monitoring.
+
+### 4. Detailed Analysis Mapped to the 21-Stage FDE Model
+Evaluate the codebase across the 21 stages of the FDE model. For each stage, provide a brief status (e.g., Mature, Needs Improvement, Missing, Critical Failure) and specific evidence from the codebase. 
+*(Note to AI: Use the following 21 stages for your mapping. If a stage is not explicitly visible in the code, infer its state based on architectural artifacts and code structure).*
+
+use the attached 21 stage FDE Model pdf. @c:\Users\Administrator\Downloads\21 Stage AI_FDE_Operating_Model.pdf 
+
+### 5. Strategic Next Steps & Remediation Plan
+
+- **Long-Term Vision :** How do we transition this brownfield code into a modern, maintainable, and scalable FDE-aligned system? (e.g., Strangler fig pattern, modularization, tech stack upgrades).
+- **Governance & Process Changes:** What new engineering practices, guardrails, or FDE stage-gates need to be implemented to prevent future degradation?
+
+**Input Data:**
+from the zip file attached, take the codebase context, including the directory tree, key configuration files, and core source code files 
+
